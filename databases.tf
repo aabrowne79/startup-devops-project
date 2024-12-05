@@ -7,7 +7,7 @@
 resource "aws_db_instance" "databasename" {
   count = 1
   engine = "mysql"
-  instance_class = "db.t3.small"
+  instance_class = "db.t3.micro"
   allocated_storage = 5
   availability_zone = "us-east-1a"
   db_name = "database${count.index+1}"
