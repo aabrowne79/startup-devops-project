@@ -1,7 +1,7 @@
 # This block defines a Terraform variable named "instance_type", which is used to specify the instance type of the EC2 instances.
 # The given instance type is "t2.micro"
 variable "instance_type" {
-  default = "t2.micro"
+  default = "t3.micro"
 }
 
 variable "db_instance_names" {
